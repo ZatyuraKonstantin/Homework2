@@ -4,8 +4,8 @@ export const characters = [
     {name: 'лучник', health: 80},
   ];
   
-  characters.sort((a, b) => a.health - b.health);
-  characters.reverse();
+  characters.sort((a, b) => b.health - a.health);
+ 
 
 
   
